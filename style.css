@@ -24,3 +24,7 @@ body{
 .card-desc{
     font-size: 1.3rem;
 }
+.flex-container{
+    display: flex;
+    flex-wrap: wrap
+}

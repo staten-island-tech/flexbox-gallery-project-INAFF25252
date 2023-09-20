@@ -12,6 +12,7 @@ body{
     text-align: center;
     font-size: 3rem;
 }
+
 .card {
     border-radius:20px;
     width: 27vw;
@@ -38,7 +39,7 @@ body{
 }
 .card-desc{
     font-size: 1.3rem;
-   
+    font-weight: bold;
 }
 .flex-container{
     display: flex;

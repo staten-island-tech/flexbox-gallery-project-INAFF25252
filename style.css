@@ -52,3 +52,22 @@ body{
    transform:translateY(-1.5rem);
    transition:.5s all;
 }
+/*reg link*/
+a:link {
+    color: #6A3587;
+  }
+  
+  /*past link*/
+  a:visited {
+    color: #563966;
+  }
+  
+  /*hover over*/
+  a:hover {
+    color: #5B41A2;
+  }
+  
+  /*selected*/
+  a:active { 
+    color: #7F41A2;
+  }

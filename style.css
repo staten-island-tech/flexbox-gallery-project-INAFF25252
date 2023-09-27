@@ -52,14 +52,20 @@ body{
    transform:translateY(-1.5rem);
    transition:.5s all;
 }
+
+a{
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 /*reg link*/
 a:link {
-    color: #6A3587;
+    color: black;
   }
   
   /*past link*/
   a:visited {
-    color: #563966;
+    color: #412b4d;
   }
   
   /*hover over*/
@@ -67,7 +73,7 @@ a:link {
     color: #5B41A2;
   }
   
-  /*selected*/
+  /*selected being pressed on*/
   a:active { 
-    color: #7F41A2;
+    color: #a039db;
   }

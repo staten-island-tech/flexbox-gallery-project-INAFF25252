@@ -7,6 +7,21 @@ body{
     background-color: #DBC2E8;
 
 }
+@keyframes example {
+    0%   {background-color:rgb(218, 149, 235); left:0px; top:0px;}
+    25%  {background-color:rgb(136, 82, 167); left:200px; top:200px;}
+    50% {background-color:rgb(216, 128, 243); left:0px; top:0px;}
+    75% {background-color:rgb(143, 38, 175); left:0px; top:0px;}
+    100% {background-color:#DBC2E8; left:0px; top:0px;}
+}
+
+.icon{
+    transition:.8s ease-in-out;
+    width: 10%;
+    animation-name: example;
+    animation-duration: 10s;
+    margin-top: 1.3rem;
+}
 
 .heading{ 
     text-align: center;
@@ -26,6 +41,7 @@ body{
     margin-bottom: 2rem;
     box-shadow: 10px 10px 5px 1px #895BA2;
     transition:.8s ease-in;
+    filter: grayscale(55%)
 }
 
 .card-title{
@@ -51,6 +67,7 @@ body{
 .card:hover{
    transform:translateY(-1.5rem);
    transition:.5s all;
+   filter: grayscale(0%)
 }
 
 a{
@@ -65,7 +82,7 @@ a:link {
   
   /*past link*/
   a:visited {
-    color: #412b4d;
+    color: #83549e;
   }
   
   /*hover over*/

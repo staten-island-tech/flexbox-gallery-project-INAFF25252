@@ -7,6 +7,17 @@ body{
     background-color: #DBC2E8;
 
 }
+@media screen and (max-width:1200px) {
+    .card{
+        width:40%;
+    }
+}
+@media screen and (max-width:800px) {
+    .card{
+        width:100%;
+    }
+}
+
 @keyframes example {
     0%   {background-color:rgb(218, 149, 235);}
     25%  {background-color:rgb(136, 82, 167);}
@@ -20,12 +31,12 @@ body{
     width: 10%;
     animation-name: example;
     animation-duration: 10s;
-    margin-top: 1.3rem;
+    margin-top: 5%;
 }
 
 .heading{ 
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
 .card {
@@ -52,7 +63,11 @@ body{
     width: 85%;
     height: auto;
     overflow: hidden;
+    transition: transform .2s;
 }
+.card-img:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
 .card-desc{
     font-size: 1.3rem;
     font-weight: bold;
@@ -74,7 +89,12 @@ a{
     padding-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: transform .2s;
 }
+a:hover {
+        transform: scale(1.4);
+      }
+
 /*reg link*/
 a:link {
     color: black;

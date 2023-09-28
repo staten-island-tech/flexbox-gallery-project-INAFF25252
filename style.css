@@ -26,7 +26,11 @@ body{
 
 .heading{ 
     text-align: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
+    transition: transform .4s;
+}
+.heading:hover{
+    transform: rotate(10deg);
 }
 
 .card {

@@ -67,6 +67,10 @@ body{
 .card-desc{
     font-size: 1.3rem;
     font-weight: bold;
+    opacity: .5;
+}
+.card-desc:hover{
+    opacity: 1;
 }
 .flex-container{
     display: flex;
